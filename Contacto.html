@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Inmobiliaria Alfa & Omega </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/alfayomega/omega.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/alfayomega/raices1.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Propiedades
+                                </a>
+                                    <div class="dropdown-menu" class="collapse navbar-collapse" id="navbarResponsive">
+                                      <a class="dropdown-item" href="Casas.html">Casas</a>
+                                      <a class="dropdown-item" href="Terrenos.html">Terrenos</a>
+                                      <a class="dropdown-item" href="#">Bodegas</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Rentas</a>
+                                    
+                                    </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="Servicio.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Portada-->
+        <header >
+            
+        </header>
+
+        
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">CONTÁCTANOS</h2>
+                      </div>
+                      
+                
+                <form id="contactForm" action="enviar.php" method="post" accept-charset="utf-8" class="needs-validation" novalidate>
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" name="name"  id="validationCustom03"  type="text" placeholder="Ingrese Su Nombre *" required/>
+                                <div class="invalid-feedback">
+                                    El nombre es requerido
+                                  </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" name="email" id="validationCustom03" type="email" pattern=".+@{A-Z,(a-z)}.com" placeholder="Ingrese su email (user@example.com) *" required />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">
+                                    El Correo es requerido o 
+                                    El Correo no es valido 
+
+                                  </div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" name="phone" id="validationCustom03" type="tel" pattern="[0-9]{10}"  placeholder="Ingrese su Numero Telefonico *" required />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">El Numero es Requerido</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" name="message" id="validationCustom03" placeholder="Ingrese su Mensaje*" required></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">El Mensaje es Requerido</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mensaje enviado -->
+                
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Mensaje enviado </div>
+                            <br />
+                            
+                        </div>
+                    </div>
+                
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Upss.. hay un error en el mesaje intentelo mas tarde </div></div>
+                    <!-- Boton de Enviar-->
+                    <div class="clear"></div>
+                    <div class="text-center">
+                       <button class="btn btn-outline-dark btn-lg mostrar" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section><br><br>
+        <div class="container">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="text-right">
+
+                        <h2 class="section-heading text-uppercase">¡Llámanos ya!</h2>
+                        <h5 class="section-heading text-uppercase"><p>
+                            Tel: (771)-71-3-9068 <br>Tel: (771)-71-209-73<br>
+                        Email:<br> inmobiliaria_gh@hotmail<br>.com <br>
+                        Visitanos:<br> CALLE 15 DE SEPTIEMBRE<br> #108 COLONIA PERIODISTAS,<br> PACHUCA DE SOTO HIDALGO,<br> C.P. 42060
+
+                        </p></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="text-center">
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1575.1557583587373!2d-98.73760453772476!3d20.118485987367894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d109e348f8c54b%3A0xaf768d8db2785195!2s15%20de%20Septiembre%20de%201810%2C%20Periodistas%2C%2042060%20Pachuca%20de%20Soto%2C%20Hgo.!5e0!3m2!1ses!2smx!4v1629918843652!5m2!1ses!2smx" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+             
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div><br><br>
+           <!-- pie de pagina-->
+           <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start"> &copy; ALFA & OMEGA 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send?phone=527717120973"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Politicas de Privacidad</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terminos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+      
+    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+       
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+    </body>
+</html>
